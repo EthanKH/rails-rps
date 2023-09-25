@@ -1,4 +1,9 @@
 class RpsController < ApplicationController
+#class NameOfController < ApplicationController
+# def action_name
+# ruby code
+# render ({:template => "folder_name/file_name"})
+# end
   def rock_you
     @random = ["rock", "paper", "scissors"].sample
     if @random == "rock"
